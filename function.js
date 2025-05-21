@@ -3,8 +3,8 @@
 function countVocals(word){
     let vocals = 0
     for (let i = 0; i<word.length; i++ ){
-        if (word[i] === "a" || word[i] === "e" || word[i] === "i" || word[i] === "o" || word[i] === "u" )
-            vocals ++;
+         if ("aeiouAEIOU".includes(word[i])) {
+        vocals++;
     }
     return vocals;
 }
@@ -12,7 +12,7 @@ function countVocals(word){
 // trovare il numero maggiore
 function highNum (arrayNum){
     let maxNum = 0;
-    for (let i = 0; i< arrayNum; i++){
+    for (let i = 0; i< arrayNum.length; i++){
         if (maxNum < arrayNum[i]){
             maxNum = arrayNum[i];
         }

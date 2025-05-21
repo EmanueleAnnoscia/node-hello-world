@@ -6,15 +6,15 @@
 
 **Bonus**
 1. Proviamo a modificare la nostra app Node, in modo da passare dal terminale una frase diversa da “Hello Boolean”. Forse potrà servirvi qualcosa vista ieri!
-2. Risolvere questi due snack, creando delle funzioni in un file separato, utilizzando modulia. 
+2. Risolvere questi due snack, creando delle funzioni in un file separato, utilizzando modulia. V
 
-Conta le Vocali
+Conta le Vocali  V
 Obiettivo: Calcolare quante vocali ci sono in una stringa fornita come argomento.
 Istruzioni:
 Lo script deve accettare una parola o frase come argomento dal terminale.
 Calcolare e stampare quante vocali (a, e, i, o, u) sono presenti nella stringa.
 
-b. Trova il Numero Maggiore
+b. Trova il Numero Maggiore V
 Obiettivo: Determinare il numero più grande in una lista di numeri.
 Istruzioni:
 Lo script deve accettare una lista di numeri separati da spazio come argomento dal terminale.
