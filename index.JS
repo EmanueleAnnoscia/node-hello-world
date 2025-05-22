@@ -20,6 +20,8 @@ const args = process.argv.slice(2);
 
 
 // funzione .every di controllo su tutti gli elementi di args
+
+                  //array-metodo-funzione di callback
 const allNumbers = args.every(function(arg) {
   return !isNaN(arg);
 });
