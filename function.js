@@ -5,9 +5,9 @@
         for (let i = 0; i<word.length; i++ ){
             if ("aeiouAEIOU".includes(word[i])) {
             vocals++;
+            }
         }
         return vocals;
-        }
     }
 
     // trovare il numero maggiore

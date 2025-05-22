@@ -1,4 +1,4 @@
-console.log("Hello World")
+// console.log("Hello World")
 
 
 
@@ -6,7 +6,7 @@ console.log("Hello World")
 
 const userString = process.argv.slice(2)
 const message = userString.join(" ");
-console.log(message)
+// console.log(message)
 
 
 // importo le mie funzioni
@@ -16,6 +16,7 @@ import {countVocals, highNum} from "./function.js"
 // inizializzo una variabile la quale va a prendere ogni elemento dopo il secondo dalla shell
 
 const args = process.argv.slice(2);
+// console.log(args)
 
 
 // funzione .every di controllo su tutti gli elementi di args
@@ -37,5 +38,6 @@ if (args.length === 0) {
     // in quest parte invece andrò a collegare le stringhe ricevute dall'utente tramite il join e successivamente andrò a richiamare la mia funzione per il conteggio
 } else {
   const phrase = args.join(" ");
+  // console.log(phrase)
   console.log("Numero di vocali:", countVocals(phrase));
 }
